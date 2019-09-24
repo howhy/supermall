@@ -1,0 +1,22 @@
+@import "./normalize.css"
+:root {
+  --color-text:#666;
+  --line-height:1.5;
+  --font-size:14px;
+  --color-background:#fff;
+  --color-hight-text:#ff5777;
+}
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+a{
+  text-decoration: none;
+}
+.clear-fix{
+  clear:both;
+  content:"";
+  display:block;
+
+}
